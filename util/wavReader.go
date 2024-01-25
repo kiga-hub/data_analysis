@@ -5,7 +5,6 @@ import (
 	"encoding/binary"
 	"fmt"
 	"io"
-	"io/ioutil"
 	"os"
 )
 
@@ -53,7 +52,7 @@ func NewReader(fileName string) (*Reader, error) {
 	}
 	defer f.Close()
 
-	waveData, err := ioutil.ReadAll(f)
+	waveData, err := io.ReadAll(f)
 	if err != nil {
 		return &Reader{}, err
 	}

@@ -1,0 +1,17 @@
+{
+    "Platform": "Node",
+    "Address": "location",
+    "Data": [
+        {
+            "CollectorID": "94C96000C25B",
+            "IsWrong": false,
+            "Byte": 0
+        },
+        {
+            "CollectorID": "94C96000C25A",
+            "IsWrong": true,
+            "Byte": 255
+        }
+    ],
+    "Num": 2
+}

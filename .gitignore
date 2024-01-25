@@ -1,0 +1,6 @@
+*.exe
+iam
+logs/
+*.tmp
+*.zip
+analysis
